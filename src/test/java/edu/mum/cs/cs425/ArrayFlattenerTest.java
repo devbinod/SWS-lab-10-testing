@@ -26,7 +26,6 @@ public class ArrayFlattenerTest {
 
     @Test
     public void testFlattenArray() {
-        //fail("Not yet implemented");
         int[][] nums={{1},{2,3},{4,5}};
         Object[] actual=arrayFlattener.flattenArray(nums);
         Object[] expected= {1,2,3,4,5};
@@ -34,7 +33,6 @@ public class ArrayFlattenerTest {
     }
     @Test
     public void testFlattenArrayNull() {
-        //fail("Not yet implemented");
         int[][] nums=null;
         Object[] actual=arrayFlattener.flattenArray(nums);
         assertNull(actual);

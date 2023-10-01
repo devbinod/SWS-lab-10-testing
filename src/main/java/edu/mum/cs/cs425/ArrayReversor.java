@@ -5,7 +5,6 @@ public class ArrayReversor {
     public IArrayFlattenerService arrayFlattenerService;
     public static void main(String[] args)
     {
-        //new ArrayReversor().reverseArray();
     }
 
     public ArrayReversor(IArrayFlattenerService arrayFlattenerService )
